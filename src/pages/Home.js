@@ -23,7 +23,8 @@ function HomePage() {
   const [shortedUrl, setshortedUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const handelPutData = async () => {
+  const handelPutData = async (e) => {
+    e.preventDefault();
     if(url==""){
       alert("Please Enter a Url");
       return;
@@ -48,13 +49,15 @@ function HomePage() {
           <div className='text-overlay intro-next text-primary'>
             brand, and share short URLs.
           </div>
+          <Form onSubmit={handelPutData}>
           <InputGroup size="lg" className="mt-5 input-center">
-            <Form.Control onKeyDown={handelPutData} className='input-cente' onChange={(e) => setUrl(e.target.value)} value={url}
+            <Form.Control className='input-cente' onChange={(e) => setUrl(e.target.value)} value={url}
               placeholder="Enter a link to Shorten it"
               aria-label="Enter a link to Shorten it"
               aria-describedby="basic-addon2"
             />
           </InputGroup>
+          </Form>
           <Button onClick={handelPutData} style={{ fontSize: '19px', fontWeight: 'bold', }} className="mt-3 button-center box-shaddow" variant="warning" id="button-addon2">
             Shorten URL{' >'}
           </Button>

@@ -16,7 +16,8 @@ function LinksPage() {
   var totalClicks = 0;
   const firebase = useFirebase();
 
-  const handelPutData = async () => {
+  const handelPutData = async (e) => {
+    e.preventDefault();
     if(url==""){
       alert("Please Enter a Url");
       return;
@@ -42,14 +43,15 @@ function LinksPage() {
     // minHeight: 'calc(100vh - 85px - 85px)'
     // minHeight:'900px'
     <div className='max-width horizontal-center col-flex links-page'>
-
+      <Form onSubmit={handelPutData}>
       <InputGroup size="lg" className="my-3 px-3">
-        <Form.Control nKeyDown={handelPutData} onChange={(e) => setUrl(e.target.value)} value={url}
+        <Form.Control onChange={(e) => setUrl(e.target.value)} value={url}
           placeholder="Enter a link to Shorten it"
           aria-label="Enter a link to Shorten it"
           aria-describedby="basic-addon2"
         />
       </InputGroup>
+      </Form>
       <div style={{ display: 'flex', justifyContent: "center" }}>
         <Button onClick={handelPutData} style={{ fontSize: '19px', fontWeight: 'bold', with: '200px' }} className='google-fonts-noto' variant="warning" id="button-addon2">
           Shorten URL{' >'}
