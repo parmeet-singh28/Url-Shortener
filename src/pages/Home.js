@@ -49,7 +49,7 @@ function HomePage() {
             brand, and share short URLs.
           </div>
           <InputGroup size="lg" className="mt-5 input-center">
-            <Form.Control className='input-cente' onChange={(e) => setUrl(e.target.value)} value={url}
+            <Form.Control onKeyDown={handelPutData} className='input-cente' onChange={(e) => setUrl(e.target.value)} value={url}
               placeholder="Enter a link to Shorten it"
               aria-label="Enter a link to Shorten it"
               aria-describedby="basic-addon2"
