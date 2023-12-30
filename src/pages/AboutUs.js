@@ -12,7 +12,7 @@ function AboutUsPage() {
                         Short Links
                     </div>
                     <div className='text-overlay intro-next text-primary'>
-                        Our mission at T.LY URL Shortener is to simplify the link sharing experience for people
+                        Our mission at iLinkShort URL Shortener is to simplify the link sharing experience for people
                     </div>
                     <div className='text-overlay intro-next text-primary'>
                         across the world.
@@ -23,7 +23,7 @@ function AboutUsPage() {
             <div className='responsive-about google-fonts-roboto' >
                 <div className='col-flex about-card'>
                     <h2 className='text-center mb-3 '>Mission</h2>
-                    <p className='google-fonts-raleway about-para-width' >We aim to provide a fast, reliable, and secure service that allows users to easily create short and memorable links to share their content, ideas, and websites with others. At T.LY, we are committed to excellence in everything we do, and we are constantly innovating and improving our service to meet the evolving needs of our users.</p>
+                    <p className='google-fonts-raleway about-para-width' >We aim to provide a fast, reliable, and secure service that allows users to easily create short and memorable links to share their content, ideas, and websites with others. At iLinkShort, we are committed to excellence in everything we do, and we are constantly innovating and improving our service to meet the evolving needs of our users.</p>
                 </div>
                 <div className='col-flex about-card'>
                     <h2 className='text-center mb-3'>Beliefs</h2>

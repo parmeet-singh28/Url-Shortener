@@ -22,7 +22,7 @@ function ContactUsPage() {
                 <div className='col-flex contact-card'>
                     <div className='contact-img'><Image src={faqImg} rounded style={{ width: '140px' }} /><h3 className='mt-2'>FAQ</h3></div>
 
-                    <p className='google-fonts-raleway contact-para-width' >Our Frequently asked questions page is a great place to start if you have a question. Also, check out our blog to keep up with T.LY and all the latest marketing trends.</p>
+                    <p className='google-fonts-raleway contact-para-width' >Our Frequently asked questions page is a great place to start if you have a question. Also, check out our blog to keep up with iLinkShort and all the latest marketing trends.</p>
                 </div>
                 <div className='col-flex contact-card'>
                     <div className='contact-img'><Image src={mailImg} rounded style={{ width: '140px' }} /><h3 className='mt-2'>Email</h3></div>
