@@ -40,7 +40,7 @@ function MyNavbar() {
     <Navbar style={{ backgroundColor: '#284243', }} expand="lg">
       <Container>
         <Image height="45px" className='mx-3 google-fonts-ubuntu' src={logo} rounded />
-        <Navbar.Brand style={{ color: 'white', fontSize: '23px', }} href="">Url Shortener</Navbar.Brand>
+        <Navbar.Brand style={{ color: 'white', fontSize: '23px', }} href="">i Link Short</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav " style={{ background: 'white' }} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-3">

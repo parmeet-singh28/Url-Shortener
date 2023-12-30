@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 function LinksCard(props) {
-  const link = `http://localhost:3000/redirect/${props.shortedUrl}`;
+  const link = `https://ilinkshort.vercel.app/go/${props.shortedUrl}`;
   const originalUrl = props.originalUrl;
   const handelSubmit = () => {
     const isAbsoluteURL = (originalUrl) => originalUrl.startsWith('http://') || originalUrl.startsWith('https://');
