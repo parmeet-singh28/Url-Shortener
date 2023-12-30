@@ -11,7 +11,7 @@ function AboutUsPage() {
                     <div className='text-overlay intro-header text-primary google-fonts-ubuntu'>
                         Short Links
                     </div>
-                    <div className='text-overlay intro-next text-primary'>
+                    <div className='text-overlay intro-next text-primary' style={{lineHeight:'35px'}}>
                         Our mission at iLinkShort URL Shortener is to simplify the link sharing experience for people
                     </div>
                     <div className='text-overlay intro-next text-primary'>

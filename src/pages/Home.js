@@ -25,7 +25,7 @@ function HomePage() {
   const navigate = useNavigate();
   const handelPutData = async (e) => {
     e.preventDefault();
-    if(url==""){
+    if (url == "") {
       alert("Please Enter a Url");
       return;
     }
@@ -43,20 +43,25 @@ function HomePage() {
           <div className='text-overlay intro-header text-primary google-fonts-ubuntu'>
             Create Short URLs
           </div>
-          <div className='text-overlay intro-next text-primary'>
-            T.LY is the World's Shortest Link Shortener service to track,
+          <div className='text-overlay intro-next text-primary' style={{lineHeight:'35px'}}>
+            iLinkShort is the World's Shortest Link Shortener service to track,
           </div>
           <div className='text-overlay intro-next text-primary'>
             brand, and share short URLs.
           </div>
-          <Form onSubmit={handelPutData}>
-          <InputGroup size="lg" className="mt-5 input-center">
-            <Form.Control className='input-cente' onChange={(e) => setUrl(e.target.value)} value={url}
-              placeholder="Enter a link to Shorten it"
-              aria-label="Enter a link to Shorten it"
-              aria-describedby="basic-addon2"
-            />
-          </InputGroup>
+          <Form noValidate onSubmit={handelPutData}>
+            <InputGroup size="lg" className="mt-5 input-center" style={{boxShadow:'0 1px 2px #e9ecef'}}>
+              <Form.Control className='input-cente' onChange={(e) => setUrl(e.target.value)} value={url}
+                placeholder="Enter a link to Shorten it"
+                aria-label="Enter a link to Shorten it"
+                aria-describedby="basic-addon2"
+                type="url"
+                spellCheck="false"
+                autoCapitalize='none'
+                autoComplete='off'
+
+              />
+            </InputGroup>
           </Form>
           <Button onClick={handelPutData} style={{ fontSize: '19px', fontWeight: 'bold', }} className="mt-3 button-center box-shaddow" variant="warning" id="button-addon2">
             Shorten URL{' >'}
@@ -74,7 +79,7 @@ function HomePage() {
               A fast and simple URL shortener
             </div>
             <div className='my-3 text-center' style={{ fontSize: '19px', fontWeight: 'initial', }}>
-              Free URL Shortener for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links for any social media platforms, blogs, SMS, emails, ads, or pretty much anywhere else you want to share them. Twitter, Facebook, YouTube, Instagram, WhatsApp, emails, SMS, videos. RB.GY is the best free alternative to generic URL shorteners like bitly and tinyurl. After shorterning the URL, check how many clicks it received.
+              Free URL Shortener for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links for any social media platforms, blogs, SMS, emails, ads, or pretty much anywhere else you want to share them. Twitter, Facebook, YouTube, Instagram, WhatsApp, emails, SMS, videos. ilinkshort.vercel.app is the best free alternative to generic URL shorteners like bitly and tinyurl. After shorterning the URL, check how many clicks it received.
             </div>
           </div>
           <div className='col-flex my-3'>
@@ -83,7 +88,7 @@ function HomePage() {
               Track Link Clicks
             </div>
             <div className='my-3 text-center' style={{ fontSize: '19px', fontWeight: 'initial', }}>
-              With over 30,000,000 links shortened and tracked over 600,000,000 link clicks, T.LY lets you know where users are coming from and is a click counter tool to track link analytics. Just add a + at the end of any short URL to see statistics.
+              With over 30,000,000 links shortened and tracked over 600,000,000 link clicks, iLinkShort lets you know where users are coming from and is a click counter tool to track link analytics.
             </div>
           </div>
         </div>
@@ -108,14 +113,13 @@ function HomePage() {
       <Nav style={{ backgroundColor: '#2281c2' }} className='my-5 col-flex' defaultActiveKey="/home" as="ul">
         <Nav.Item className='mt-3 mx-5'>
           <FoldUnfold title={'What is a URL shortener?'} text={`A URL shortener, or a link shortener, simplifies long and complicated URLs into brief, comprehensible links. The application of a URL shortener can notably elevate your digital marketing effortss. When you choose to shorten URL, you're making a complex web address more user-friendly and accessible.
-For instance, a URL such as rb.gy/BakingMasterclass immediately communicates the content of the link, making it more inviting for users to click.
 For anyone producing or circulating content online, understanding how to shorten a URL is essential.
 Enhance your online presence with our effortless and free URL shortening tool presented above.`} />
         </Nav.Item>
-        <Nav.Item className='mx-5'><FoldUnfold title={'How do I change a long URL to a short URL?'} text={`To shorten a URL, you'll need a service like RB.GY. First, copy the long URL you want to shorten. Then, access the URL shortener tool. Paste your long URL into the appropriate field, then click "Shorten URL." RB.GY will instantly generate a shortened version of your original URL, which leads to the same page when clicked.`} /></Nav.Item>
-        <Nav.Item className='mx-5' ><FoldUnfold title={'Which link shortener is best?'} text={`Rebrandly stands out as a top-rated URL shortener due to its dependability, security, and array of link management features. Beyond merely providing a way to shorten URL, Rebrandly also delivers performance tracking through click-through rates and the option to brand URLs. Explore Rebrandly's premium features to fully optimize your link management.`} /></Nav.Item>
+        <Nav.Item className='mx-5'><FoldUnfold title={'How do I change a long URL to a short URL?'} text={`To shorten a URL, you'll need a service like ilinkshort.vercel.app. First, copy the long URL you want to shorten. Then, access the URL shortener tool. Paste your long URL into the appropriate field, then click "Shorten URL." ilinkshort.vercel.app will instantly generate a shortened version of your original URL, which leads to the same page when clicked.`} /></Nav.Item>
+        <Nav.Item className='mx-5' ><FoldUnfold title={'Which link shortener is best?'} text={`iLinkShort stands out as a top-rated URL shortener due to its dependability, security, and array of link management features. Beyond merely providing a way to shorten URL, iLinkShort also delivers performance tracking through click-through rates and the option to brand URLs. Explore iLinkShort's premium features to fully optimize your link management.`} /></Nav.Item>
         <Nav.Item className='mx-5' ><FoldUnfold title={'What are the benefits of a short URL?'} text={`When you choose to shorten a URL, you're optimizing your digital content in several ways. Short URLs are more manageable and tidy, fitting neatly into character-limited spaces like tweets or Instagram bios. They are also simpler to remember and type manually. Moreover, many URL shorteners include tracking capabilities, offering vital data on link engagement – a crucial tool for businesses and marketing campaigns. Finally, short URLs can be customized for increased brand recognition and user trust.`} /></Nav.Item>
-        <Nav.Item className='mb-3 mx-5'><FoldUnfold title={'How do I shorten a URL for free?'} text={`You can shorten a URL for free using online services like RB.GY. The process couldn't be simpler: access RB.GY's URL shortener tool, insert your long URL into the specified field, then click to generate a shortened URL.`} /></Nav.Item>
+        <Nav.Item className='mb-3 mx-5'><FoldUnfold title={'How do I shorten a URL for free?'} text={`You can shorten a URL for free using online services like ilinkshort.vercel.app. The process couldn't be simpler: access ilinkshort.vercel.app's URL shortener tool, insert your long URL into the specified field, then click to generate a shortened URL.`} /></Nav.Item>
       </Nav>
 
 

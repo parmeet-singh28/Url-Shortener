@@ -11,7 +11,7 @@ function ContactUsPage() {
                     <div className='text-overlay intro-header text-primary google-fonts-ubuntu'>
                         Get in Touch
                     </div>
-                    <div className='text-overlay intro-next text-primary'>
+                    <div className='text-overlay intro-next text-primary' style={{lineHeight:'35px'}}>
                         Want to get in touch? We'd love to hear from you. Here's how you can reach us....
                     </div>
                 </div>
