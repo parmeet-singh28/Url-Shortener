@@ -78,7 +78,7 @@ function LinksPage() {
       </div>
       <div className='link-card-center'>
         <div className='about-site-card col-flex' style={{ backgroundColor: '#f6f8f9' }} >
-          <div className='google-fonts-noto about-site-card-about text-center py-2' >About Todo</div>
+          <div className='google-fonts-noto about-site-card-about text-center py-2' >About iLinkShort</div>
           <div className='mx-3 my-3 text-center google-fonts-roboto'>
             Creating, sharing, and monitoring your short links is easy with iLinkShort. We help you work faster and more intelligently with features like branded links and the ability to update the redirect of any link.
             <div className='my-3'></div>

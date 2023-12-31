@@ -9,7 +9,7 @@ function ShowShortedUrl({ url , backgroundCol}) {
         <div>
             {url ? (
                 <div className='intro-header google-fonts-poopins mt-3 home-page-shortUrl' style={{backgroundColor:backgroundCol}} >
-                    <div>Shorted Url:-</div>
+                    <div className='home-page-shortUrl-title'>Shorted Url:-</div>
                     <a style={{textDecoration:'none'}} href={link} target='_blank' rel="noopener noreferrer" >ilinkshort.vercel.app/go/{url}</a>
                 </div>
             ) : (null)}

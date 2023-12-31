@@ -322,7 +322,7 @@
 
 .about-site-card {
   margin: 150px 0 0 0;
-  width: 400px;
+  width: 371px;
   display: flex;
   box-shadow: 0 2px 3px rgba(0, 0, 0, .16);
   position: absolute;
@@ -433,14 +433,12 @@
     width: 250px;
     position: unset;
     margin-top: 23px;
-    margin-left: 23px;
     border-radius: 5px;
     background-color: #f6f8f9;
   }
 
   .about-site-card {
     margin-top: 23px;
-    margin-left: 23px;
     width: 400px;
     position: unset;
     display: flex;
@@ -459,14 +457,12 @@
     width: 250px;
     position: unset;
     margin-top: 23px;
-    margin-left: 23px;
     border-radius: 5px;
     background-color: #f6f8f9;
   }
 
   .about-site-card {
     margin-top: 23px;
-    margin-left: 23px;
     width: 350px;
     position: unset;
     display: flex;
@@ -485,14 +481,12 @@
     width: 250px;
     position: unset;
     margin-top: 23px;
-    margin-left: 23px;
     border-radius: 5px;
     background-color: #f6f8f9;
   }
 
   .about-site-card {
     margin-top: 23px;
-    margin-left: 23px;
     width: 300px;
     position: unset;
     display: flex;
@@ -511,14 +505,12 @@
     width: 250px;
     position: unset;
     margin-top: 23px;
-    margin-left: 23px;
     border-radius: 5px;
     background-color: #f6f8f9;
   }
 
   .about-site-card {
     margin-top: 23px;
-    margin-left: 23px;
     width: 250px;
     position: unset;
     display: flex;
@@ -772,7 +764,32 @@
   border-radius: 3px;
   text-decoration: none;
 }
-
+@media screen and (min-width:870px) and (max-width:1265px) {
+  .home-page-shortUrl{
+    display: flex;
+    flex-direction: column;
+    text-align: unset;
+    margin-left: 23px;
+    font-size: 24px;
+  }
+  .home-page-shortUrl-title{
+    display: block;
+    margin-left: 126px;
+  }
+}
+/* @media screen and (min-width:0px) and (max-width:921px) {
+  .home-page-shortUrl{
+    display: flex;
+    flex-direction: column;
+    text-align: unset;
+    margin-left: 23px;
+    font-size: 12px;
+  }
+  .home-page-shortUrl-title{
+    display: block;
+    margin-left: 126px;
+  }
+} */
 @media screen and (min-width:460px) and (max-width:550px) {
   .home-page-shortUrl{
     font-size: 25px;
