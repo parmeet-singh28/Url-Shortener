@@ -83,8 +83,6 @@ function LinksPage() {
             Creating, sharing, and monitoring your short links is easy with iLinkShort. We help you work faster and more intelligently with features like branded links and the ability to update the redirect of any link.
             <div className='my-3'></div>
             Make your links powerful marketing assets. Custom domains replace "iLinkShort” with your own domain name, making your links consistently recognizable across channels. They’re so powerful, businesses that use them get up to 34% more clicks.
-            <div className='my-3'></div>
-            iLinkShort also supports OneLinks which gives you the ability to connect your audiences to all of your content with one link. OneLinks are great for social media profiles.
           </div>
         </div>
       </div>
