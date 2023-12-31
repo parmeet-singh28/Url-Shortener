@@ -80,11 +80,11 @@ function LinksPage() {
         <div className='about-site-card col-flex' style={{ backgroundColor: '#f6f8f9' }} >
           <div className='google-fonts-noto about-site-card-about text-center py-2' >About Todo</div>
           <div className='mx-3 my-3 text-center google-fonts-roboto'>
-            Creating, sharing, and monitoring your short links is easy with T.LY. We help you work faster and more intelligently with features like branded links and the ability to update the redirect of any link.
+            Creating, sharing, and monitoring your short links is easy with iLinkShort. We help you work faster and more intelligently with features like branded links and the ability to update the redirect of any link.
             <div className='my-3'></div>
-            Make your links powerful marketing assets. Custom domains replace "t.ly” with your own domain name, making your links consistently recognizable across channels. They’re so powerful, businesses that use them get up to 34% more clicks.
+            Make your links powerful marketing assets. Custom domains replace "iLinkShort” with your own domain name, making your links consistently recognizable across channels. They’re so powerful, businesses that use them get up to 34% more clicks.
             <div className='my-3'></div>
-            T.LY also supports OneLinks which gives you the ability to connect your audiences to all of your content with one link. OneLinks are great for social media profiles. You can even use your own custom domain!
+            iLinkShort also supports OneLinks which gives you the ability to connect your audiences to all of your content with one link. OneLinks are great for social media profiles. You can even use your own custom domain!
           </div>
         </div>
       </div>
