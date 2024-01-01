@@ -654,6 +654,24 @@
     width: 500px;
   }
 }
+@media screen and (min-width:1050px) and (max-width:1220px) {
+  .contact-card {
+    height: 300px;
+    width: 250px;
+  }
+  .contact-para-width {
+    width: 300px;
+  }
+}
+@media screen and (min-width:930px) and (max-width:1050px) {
+  .contact-card {
+    height: 300px;
+    width: 230px;
+  }
+  .contact-para-width {
+    width: 255px;
+  }
+}
 
 @media screen and (min-width:430px) and (max-width:560px) {
   .responsive-about {
