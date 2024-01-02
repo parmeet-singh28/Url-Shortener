@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUsPage() {
     return (
-        <div>
+        <div style={{minHeight: 'calc(100vh - 85px - 85px)'}}>
             <div className='max-width horizontal-center'>
                 <div className='col-flex' >
                     <div className='text-overlay intro-header text-primary google-fonts-ubuntu'>

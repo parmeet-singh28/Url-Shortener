@@ -5,7 +5,7 @@ import mailImg from '../assets/images/mailLogo.png'
 import hashtagImg from '../assets/images/hashtagLogo.png'
 function ContactUsPage() {
     return (
-        <div>
+        <div style={{minHeight: 'calc(100vh - 85px - 85px)'}}>
             <div className='max-width horizontal-center'>
                 <div className='col-flex' >
                     <div className='text-overlay intro-header text-primary google-fonts-ubuntu'>
